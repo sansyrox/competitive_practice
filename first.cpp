@@ -17,22 +17,16 @@ Node* takeInput_Better() {
 	tail -> next = newNode;
 	tail = tail -> next;
 	}
-
 	cin>>data;
-
- } 
-
+  } 
 return head;
-
 }
-
 
 void print(Node *head) {
   while(head != NULL) { 
     cout<< head -> data << " ";
     head = head -> next;
  }
-
 }
 
 
